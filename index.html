@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga de Archivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="container">
+            <a href="#login" class="login-btn">Iniciar Sesión</a>
+            <h1>Como descargar Minecraft Bedrock 1.21?</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="intro-section">
+                <h2>Paso 1:Baja hasta encontrar un boton que diga "Descargar Minecraft Bedrock 1.21" </h2>
+                <p>Lo unico que tienes que hacer es presionar el boton indicado y esperar 30 segundos para ser direccionado a la siguiente pagina y hacer lo indicado de nuevo.Pero no te preocupes,despues de esa pagina Minecraft Bedrock sera todo tuyo(Ignora lo siguiente)</p>
+                <h2>¿Que trae de nuevo esta version de Minecraft?</h2>
+                <h3>Crafter: al fin tenemos crafteos automáticos</h3>
+                <p>La primera novedad que presento de esta nueva versión, la 1.21, es un nuevo bloque interactuable similar a una mesa de crafteo. En este caso es un bloque donde le insertarás una receta de fabricación y si le das los ítems necesarios para dicho crafteo, pues lo crafteará. Una idea muy interesante sobre todo para crear mecanismos y crear por ejemplo pan al tenerlo conectado a una granja de trigo. Como vemos en el propio directo de Mojang, vemos como es posible que crafteen una armadura y que al pasar por una puerta, te equipes automáticamente sin necesidad de equiparte tu propia armadura. De hecho creas una nueva y no gastas la que quieres usar para cosas más arriesgadas. Una mecánica muy muy interesante pero esto no es lo único ya que si os ha gustado esto para hacer mecanismos o explorar la siguiente novedad os encantará.</p>
+                <h3>El Breezer: ¿Un mob cuyos proyectiles interactúan con redstone?</h3>
+                <p>A voz de pronto parece un blaze, y no nos equivocamos cuando lo pensamos. Lo que pasa con este mob es que en vez de volar, brinca de un lado a otro como si fuera un slime. Además lanza un proyectil que puede interactuar con bloques que pueden ser activados con redstone, por ejemplo una lampara, puertas o trampillas. E incluso puede activar dispensadores, claramente un mob con una mecánica bastante peculiar y que puede dar mucha vidilla a aquellos jugadores que les guste el técnico. </p>
+                <h3>Nuevos bloques de decoración: ¿Por fin un buen uso para el cobre y la toba?</h3>
+                <p>Una de las novedades que más me han gustado de la Minecraft Live 2023 es la adición de dos tipos de bloques decorativos, por una parte el cobre que podemos ver en la foto. Ahora podemos hacer lámparas con cobre que le dan un toque bastante industrial o de temática de ingeniería. Aunque no es lo único, también añadirán unos bloques como si fueran rendijas de pasillos de fábrica que francamente me gusta mucho. Pero no es el único bloque que obtendrá nuevos usos.El otro bloque que recibirá nuevos usos es la anteriormente inútil toba. Aquel bloque que encontrábamos y que no nos llamaba para nada ya que era bastante tosco y feo. Además que antes era totalmente inútil y no tenía ningún uso decorativo. Pues tanto en la anterior foto como en la de abajo podemos apreciar esos nuevos usos decorativos a la toba. En mi opinión se ve bastante bonita y junto a el nuevo uso del cobre y el crafter, son las novedades de minecraft 1.21 que más me gustan.</p>
+
+            <!-- Carrusel de Imágenes -->
+            <section class="carousel-section">
+                <h2>Galería de Imágenes</h2>
+                <div class="carousel">
+                    <button class="carousel-btn left">&#9664;</button>
+                    <div class="carousel-images">
+                        <img src="imagenes/5f9j8amb.png" alt="Imagen 1">
+                        <img src="imagenes/19qktham.png" alt="Imagen 2">
+                        <img src="imagenes/j23za0au.png" alt="Imagen 3">
+                    </div>
+                    <button class="carousel-btn right">&#9654;</button>
+                </div>
+            </section>
+            
+
+            <!-- Sección de Descarga -->
+            <section class="download-section">
+                <h2>Seccion de Desacarga</h2>
+                <p>Ojala disfrutes la aplicacion!</p>
+                <div class="content-descarga">
+                    <a href="https://srfabri.github.io/web2/" class="descarga-ahora"
+                    id="download" target="_blank">
+                      Descarga Ahora <i class="fa fa-download"></i>
+                    </a>
+                    <button class="btn-descarga" id="btn">
+                      Descargar <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </div>
+                  
+            </section>
+
+            <!-- Sección de Calificaciones -->
+            <section class="ratings-section">
+                <h2>Reseñas del Archivo</h2>
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <p>4.5 de 5 estrellas</p>
+                </div>
+                <div class="comments">
+                    <h3>Comentarios</h3>
+                    <div class="comment">
+                        <img src="profile1.jpg" alt="Profile Picture" class="profile-pic">
+                        <div>
+                            <strong>Usuario123</strong>
+                            <p>Hombre muchas gracias,en serio pense que traia virus jaja</p>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="profile2.jpg" alt="Profile Picture" class="profile-pic">
+                        <div>
+                            <strong>AmanteDeLosLibros</strong>
+                            <p>Al fin la put*****e,muchas gracias tio</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-comment">
+                    <h3>Añadir una Opinión</h3>
+                    <form id="commentForm">
+                        <label for="username">Nombre de Usuario:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="comment">Comentario:</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                    <div id="user-comments" class="user-comments">
+                        <h3>Mis Comentarios</h3>
+                        <!-- Aquí se mostrarán los comentarios del usuario -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Minecraft 1.21 DESCARGAR GRATIS 2024.ADVERTENCIA:Esta pagina no se encarga de piratear videojuegos,sino de redirigir al usuario a otras paginas que sean de su utilidad</p>
+        </div>
+    </footer>
+
+    <!-- Login Form Modal -->
+    <div id="login" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="btn">Iniciar Sesión</button>
+                <button type="button" class="btn register-btn">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Form Modal -->
+    <div id="register" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Registrarse</h2>
+            <form action="#">
+                <label for="new-username">Nombre de usuario:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="new-password">Contraseña:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <label for="confirm-password">Confirmar contraseña:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <button type="submit" class="btn">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
